@@ -1,0 +1,117 @@
+/*
+  Colors:
+  LightTan: #D6B89E;
+  MediumTan: #D79774;
+  Brown: #A55634;
+  LightBrown: #EEDFD8;
+  DarkBrown: #562C22;
+*/
+
+.navbar{
+  background: #FFF;
+}
+
+a{
+  text-decoration: none;
+  transition: all 300ms ease-in;
+}
+
+.container-jumbotron{
+  margin: 0px auto;
+  text-align: center;
+  padding: 0;
+}
+
+.jumbotron-fluid{
+  min-height: 600px;
+  position: relative;
+}
+
+.jumbotron-home{
+  background: url('../img/home-image-1.jpg') no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-location{
+  background: url('../img/location.jpg') no-repeat;
+  background-size: cover;
+  margin: 0 0 5.00rem 0;
+}
+
+.jumbotron-menu{
+  background: url('../img/menu.jpg') no-repeat;
+  background-size: cover;
+  margin: 0 0 5.00rem 0;
+}
+
+.jumbotron-contact{
+  background: url('../img/contact.jpg') no-repeat;
+  background-size: cover;
+  margin: 0 0 5.00rem 0;
+}
+
+.jumbotron-text{
+  color: #FFF;
+  background: rgba(0,0,0,.25);
+  padding: 1.25rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.container-banner{
+  text-align: center;
+}
+
+.card-img-top{
+  display: block;
+  margin: 1.25rem auto;
+}
+
+.card-img-top > svg{
+  margin: 0 auto;
+  display: block;
+}
+
+.banner{
+  background: #D79774;
+  padding: 1.25rem 0;
+  margin: 0 0 5.0rem 0;
+}
+
+.navbar-nav{
+  float: left;
+}
+
+.navbar-brand{
+  width: 100%;
+}
+
+@media (min-width: 544px){
+
+  .jumbotron-text{
+    width: 50%;
+  }
+
+  .navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    background: rgba(255,255,255,.95);
+    border-bottom: 1px solid rgba(255,255,255,.65);
+  }
+
+  .navbar-nav{
+    float: right;
+  }
+
+  .navbar-brand{
+    width: auto;
+  }
+
+}
